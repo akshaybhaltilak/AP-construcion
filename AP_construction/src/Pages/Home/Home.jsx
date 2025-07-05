@@ -180,7 +180,7 @@ const Home = () => {
               onClick={() => handleDotClick(index)}
               className={`inline-block w-2 h-2 sm:w-3 sm:h-3 rounded-full mx-1 transition-all duration-500 ${
                 index === currentIndex 
-                  ? "bg-red-500 w-6 sm:w-8 shadow-lg shadow-red-500/50" 
+                  ? "bg-red-900 w-6 sm:w-8 shadow-lg shadow-red-900/50" 
                   : "bg-white/40 hover:bg-white/60"
               }`}
               aria-label={`Go to slide ${index + 1}`}
@@ -234,7 +234,7 @@ const Home = () => {
                 <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/70 to-black/40">
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/20">
                     {/* Decorative elements */}
-                    <div className="absolute top-10 right-10 w-32 h-32 border border-red-500/20 rounded-full hidden lg:block animate-pulse" />
+                    <div className="absolute top-10 right-10 w-32 h-32 border border-red-900/20 rounded-full hidden lg:block animate-pulse" />
                     <div className="absolute bottom-20 left-10 w-20 h-20 border-2 border-white/10 rotate-45 hidden lg:block" />
                     
                     {/* Content container */}
@@ -250,9 +250,9 @@ const Home = () => {
                             {/* Category badge */}
                             <motion.div
                               variants={textItemVariants}
-                              className="inline-flex items-center space-x-2 bg-red-600/20 backdrop-blur-sm border border-red-500/30 rounded-full px-4 py-2 text-sm font-medium text-red-400"
+                              className="inline-flex items-center space-x-2 bg-red-900/20 backdrop-blur-sm border border-red-900/30 rounded-full px-4 py-2 text-sm font-medium text-red-900"
                             >
-                              <span className="w-2 h-2 bg-red-500 rounded-full animate-pulse" />
+                              <span className="w-2 h-2 bg-red-900 rounded-full animate-pulse" />
                               <span>{services[currentIndex].category}</span>
                             </motion.div>
 
@@ -262,7 +262,7 @@ const Home = () => {
                               className="text-xs sm:text-sm font-mono tracking-widest text-white/60 flex items-center space-x-2"
                             >
                               <span>{String(currentIndex + 1).padStart(2, '0')}</span>
-                              <div className="w-8 sm:w-12 h-px bg-red-500" />
+                              <div className="w-8 sm:w-12 h-px bg-red-900" />
                               <span>{String(services.length).padStart(2, '0')}</span>
                             </motion.div>
 
@@ -274,7 +274,7 @@ const Home = () => {
                               <span className="block">
                                 {services[currentIndex].name.split(' ')[0]}
                               </span>
-                              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-red-600">
+                              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-red-900 to-red-900">
                                 {services[currentIndex].name.split(' ').slice(1).join(' ')}
                               </span>
                             </motion.h1>
@@ -300,7 +300,7 @@ const Home = () => {
                               >
                                 <NavLink
                                   to="#projects"
-                                  className="group inline-flex items-center justify-center px-8 py-4 bg-red-600 text-white font-semibold rounded-full transition-all duration-300 hover:bg-red-700 hover:shadow-2xl hover:shadow-red-600/25 min-w-[200px]"
+                                  className="group inline-flex items-center justify-center px-8 py-4 bg-red-900 text-white font-semibold rounded-full transition-all duration-300 hover:bg-red-900 hover:shadow-2xl hover:shadow-red-900/25 min-w-[200px]"
                                 >
                                   <span>Explore Our Work</span>
                                   <ArrowRight className="ml-2 w-5 h-5 transition-transform group-hover:translate-x-1" />
@@ -315,7 +315,7 @@ const Home = () => {
                               >
                                 <NavLink
                                   to="#contact"
-                                  className="group inline-flex items-center justify-center px-8 py-4 bg-transparent border-2 border-white/30 text-white font-semibold rounded-full transition-all duration-300 hover:border-red-500 hover:bg-red-600/10 backdrop-blur-sm min-w-[200px]"
+                                  className="group inline-flex items-center justify-center px-8 py-4 bg-transparent border-2 border-white/30 text-white font-semibold rounded-full transition-all duration-300 hover:border-red-900 hover:bg-red-900/10 backdrop-blur-sm min-w-[200px]"
                                 >
                                   <span>Get Free Quote</span>
                                   <PlayCircle className="ml-2 w-5 h-5 transition-transform group-hover:scale-110" />
@@ -357,7 +357,7 @@ const Home = () => {
           <div className="hidden sm:block">
             <button
               onClick={handlePrev}
-              className="absolute left-4 lg:left-8 top-1/2 -translate-y-1/2 p-4 rounded-full bg-black/30 backdrop-blur-md border border-white/10 text-white z-30 hover:bg-red-600/80 hover:border-red-500/50 transition-all duration-300 group"
+              className="absolute left-4 lg:left-8 top-1/2 -translate-y-1/2 p-4 rounded-full bg-black/30 backdrop-blur-md border border-white/10 text-white z-30 hover:bg-red-900/80 hover:border-red-900/50 transition-all duration-300 group"
               aria-label="Previous slide"
             >
               <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 transition-transform group-hover:-translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -366,7 +366,7 @@ const Home = () => {
             </button>
             <button
               onClick={handleNext}
-              className="absolute right-4 lg:right-8 top-1/2 -translate-y-1/2 p-4 rounded-full bg-black/30 backdrop-blur-md border border-white/10 text-white z-30 hover:bg-red-600/80 hover:border-red-500/50 transition-all duration-300 group"
+              className="absolute right-4 lg:right-8 top-1/2 -translate-y-1/2 p-4 rounded-full bg-black/30 backdrop-blur-md border border-white/10 text-white z-30 hover:bg-red-900/80 hover:border-red-900/50 transition-all duration-300 group"
               aria-label="Next slide"
             >
               <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">

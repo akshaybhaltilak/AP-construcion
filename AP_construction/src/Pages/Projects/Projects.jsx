@@ -233,7 +233,7 @@ const Projects = () => {
             y: -15,
             scale: 1.03,
             rotateY: 5,
-            boxShadow: "0 25px 50px -12px rgba(255, 0, 0, 0.25), 0 0 30px rgba(255, 255, 255, 0.1)",
+            boxShadow: "0 25px 50px -12px rgba(139, 0, 0, 0.25), 0 0 30px rgba(255, 255, 255, 0.1)",
             transition: {
                 duration: 0.4,
                 ease: "easeInOut"
@@ -244,14 +244,14 @@ const Projects = () => {
     const buttonVariants = {
         initial: {
             scale: 1,
-            background: "linear-gradient(135deg, #dc2626 0%, #991b1b 100%)",
+            background: "linear-gradient(135deg, #7f1d1d 0%, #450a0a 100%)",
             color: "#ffffff",
-            boxShadow: "0 4px 15px rgba(220, 38, 38, 0.4)"
+            boxShadow: "0 4px 15px rgba(127, 29, 29, 0.4)"
         },
         hover: {
             scale: 1.05,
-            background: "linear-gradient(135deg, #ef4444 0%, #dc2626 100%)",
-            boxShadow: "0 8px 25px rgba(220, 38, 38, 0.6), 0 0 20px rgba(255, 255, 255, 0.1)",
+            background: "linear-gradient(135deg, #991b1b 0%, #7f1d1d 100%)",
+            boxShadow: "0 8px 25px rgba(127, 29, 29, 0.6), 0 0 20px rgba(255, 255, 255, 0.1)",
             transition: {
                 duration: 0.3,
                 ease: "easeInOut"
@@ -291,7 +291,7 @@ const Projects = () => {
             scale: 1.1,
             y: -10,
             rotateY: 10,
-            boxShadow: "0 20px 40px rgba(220, 38, 38, 0.3)",
+            boxShadow: "0 20px 40px rgba(127, 29, 29, 0.3)",
             transition: {
                 type: "spring",
                 stiffness: 300
@@ -313,8 +313,8 @@ const Projects = () => {
         hover: {
             scale: 1.2,
             rotate: 360,
-            boxShadow: "0 0 20px rgba(220, 38, 38, 0.8)",
-            background: "linear-gradient(135deg, #dc2626 0%, #991b1b 100%)",
+            boxShadow: "0 0 20px rgba(127, 29, 29, 0.8)",
+            background: "linear-gradient(135deg, #7f1d1d 0%, #450a0a 100%)",
             transition: {
                 type: "spring",
                 stiffness: 400,
@@ -347,9 +347,9 @@ const Projects = () => {
         },
         active: {
             scale: 1.1,
-            background: "linear-gradient(135deg, #dc2626 0%, #991b1b 100%)",
+            background: "linear-gradient(135deg, #7f1d1d 0%, #450a0a 100%)",
             color: "#ffffff",
-            boxShadow: "0 8px 25px rgba(220, 38, 38, 0.5), 0 0 15px rgba(255, 255, 255, 0.2)"
+            boxShadow: "0 8px 25px rgba(127, 29, 29, 0.5), 0 0 15px rgba(255, 255, 255, 0.2)"
         },
         tap: { scale: 0.95 }
     };
@@ -361,8 +361,8 @@ const Projects = () => {
             className="relative py-20 px-4 sm:px-6 lg:px-8 overflow-hidden text-white min-h-screen"
             style={{
                 background: `
-                    radial-gradient(circle at 20% 80%, rgba(220, 38, 38, 0.3) 0%, transparent 50%),
-                    radial-gradient(circle at 80% 20%, rgba(153, 27, 27, 0.3) 0%, transparent 50%),
+                    radial-gradient(circle at 20% 80%, rgba(127, 29, 29, 0.3) 0%, transparent 50%),
+                    radial-gradient(circle at 80% 20%, rgba(69, 10, 10, 0.3) 0%, transparent 50%),
                     radial-gradient(circle at 40% 40%, rgba(127, 29, 29, 0.2) 0%, transparent 50%),
                     linear-gradient(135deg, #000000 0%, #1a1a1a 50%, #000000 100%)
                 `
@@ -382,7 +382,7 @@ const Projects = () => {
                         repeat: Infinity,
                         ease: "linear"
                     }}
-                    className="absolute top-10 right-10 w-32 h-32 border border-red-600/20 rounded-full"
+                    className="absolute top-10 right-10 w-32 h-32 border border-red-900/20 rounded-full"
                 />
                 <motion.div
                     animate={{
@@ -413,7 +413,7 @@ const Projects = () => {
                         className="relative inline-block"
                     >
                         <motion.h2
-                            className="text-5xl md:text-7xl font-black text-center mb-6 bg-gradient-to-r from-white via-red-100 to-red-400 bg-clip-text text-transparent"
+                            className="text-5xl md:text-7xl font-black text-center mb-6 bg-gradient-to-r from-white via-red-100 to-red-900 bg-clip-text text-transparent"
                             initial={{ opacity: 0, y: 30 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 1, delay: 0.1 }}
@@ -425,7 +425,7 @@ const Projects = () => {
                             initial={{ width: "0%" }}
                             animate={isInView ? { width: "100%" } : {}}
                             transition={{ duration: 1, delay: 1 }}
-                            className="h-2 bg-gradient-to-r from-red-600 via-red-500 to-red-400 rounded-full mx-auto mt-2"
+                            className="h-2 bg-gradient-to-r from-red-900 via-red-800 to-red-700 rounded-full mx-auto mt-2"
                             style={{ maxWidth: "200px" }}
                         />
                     </motion.div>
@@ -447,8 +447,8 @@ const Projects = () => {
                     className="mb-16"
                 >
                     <div className="w-full text-center mb-8">
-                        <h3 className="text-2xl font-bold text-red-400 mb-2">Explore Categories</h3>
-                        <div className="w-20 h-1 bg-red-600 mx-auto rounded-full"></div>
+                        <h3 className="text-2xl font-bold text-red-900 mb-2">Explore Categories</h3>
+                        <div className="w-20 h-1 bg-red-900 mx-auto rounded-full"></div>
                     </div>
                     <div className="flex flex-wrap justify-center gap-4 px-2 max-w-5xl mx-auto">
                         {categories.map((category, index) => (
@@ -459,15 +459,15 @@ const Projects = () => {
                                 animate={activeCategory === category ? "active" : "visible"}
                                 whileHover={activeCategory !== category ? { 
                                     scale: 1.05, 
-                                    boxShadow: "0 0 20px rgba(220, 38, 38, 0.4)",
-                                    background: "rgba(220, 38, 38, 0.1)"
+                                    boxShadow: "0 0 20px rgba(127, 29, 29, 0.4)",
+                                    background: "rgba(127, 29, 29, 0.1)"
                                 } : {}}
                                 whileTap="tap"
                                 onClick={() => handleCategoryChange(category)}
                                 className={`px-8 py-3 text-sm font-medium rounded-full border-2 transition-all duration-300 backdrop-blur-sm ${
                                     activeCategory === category
-                                        ? 'bg-gradient-to-r from-red-600 to-red-500 text-white border-red-500 shadow-lg font-bold'
-                                        : 'bg-black/50 text-white border-red-600/50 hover:border-red-500'
+                                        ? 'bg-gradient-to-r from-red-900 to-red-800 text-white border-red-800 shadow-lg font-bold'
+                                        : 'bg-black/50 text-white border-red-900/50 hover:border-red-800'
                                 }`}
                             >
                                 {category === 'all' ? 'All Projects' : category}
@@ -483,13 +483,13 @@ const Projects = () => {
                         animate={{ opacity: 1 }}
                         className="text-center py-20 px-4"
                     >
-                        <div className="bg-black/70 backdrop-blur-sm rounded-2xl p-12 max-w-md mx-auto shadow-2xl border border-red-600/30">
+                        <div className="bg-black/70 backdrop-blur-sm rounded-2xl p-12 max-w-md mx-auto shadow-2xl border border-red-900/30">
                             <motion.div
                                 animate={{ rotate: [0, 360] }}
                                 transition={{ duration: 2, repeat: Infinity, ease: "linear" }}
                                 className="mx-auto mb-6"
                             >
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-20 w-20 text-red-500 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <svg xmlns="http://www.w3.org/2000/svg" className="h-20 w-20 text-red-900 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                                 </svg>
                             </motion.div>
@@ -499,7 +499,7 @@ const Projects = () => {
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
                                 onClick={() => handleCategoryChange('all')}
-                                className="px-8 py-3 bg-gradient-to-r from-red-600 to-red-500 text-white rounded-lg hover:from-red-500 hover:to-red-400 transition-all shadow-lg font-medium"
+                                className="px-8 py-3 bg-gradient-to-r from-red-900 to-red-800 text-white rounded-lg hover:from-red-800 hover:to-red-700 transition-all shadow-lg font-medium"
                             >
                                 View all projects
                             </motion.button>
@@ -520,7 +520,7 @@ const Projects = () => {
                                 whileTap="tap"
                                 onClick={() => handleScroll('left')}
                                 disabled={scrollPosition <= 0}
-                                className={`absolute left-4 top-1/2 z-20 transform -translate-y-1/2 p-4 rounded-full bg-black/70 backdrop-blur-sm border border-red-600/50 ${
+                                className={`absolute left-4 top-1/2 z-20 transform -translate-y-1/2 p-4 rounded-full bg-black/70 backdrop-blur-sm border border-red-900/50 ${
                                     scrollPosition <= 0 ? 'opacity-50 cursor-not-allowed' : ''
                                 }`}
                                 aria-label="Scroll left"
@@ -537,7 +537,7 @@ const Projects = () => {
                                 whileTap="tap"
                                 onClick={() => handleScroll('right')}
                                 disabled={scrollPosition >= maxScroll}
-                                className={`absolute right-4 top-1/2 z-20 transform -translate-y-1/2 p-4 rounded-full bg-black/70 backdrop-blur-sm border border-red-600/50 ${
+                                className={`absolute right-4 top-1/2 z-20 transform -translate-y-1/2 p-4 rounded-full bg-black/70 backdrop-blur-sm border border-red-900/50 ${
                                     scrollPosition >= maxScroll ? 'opacity-50 cursor-not-allowed' : ''
                                 }`}
                                 aria-label="Scroll right"
@@ -567,7 +567,7 @@ const Projects = () => {
                                     custom={index}
                                     variants={cardVariants}
                                     whileHover="hover"
-                                    className="flex-shrink-0 w-[350px] sm:w-[420px] mx-4 snap-center bg-gradient-to-br from-gray-900/90 to-black/90 backdrop-blur-xl rounded-2xl overflow-hidden border border-red-600/30 shadow-2xl"
+                                    className="flex-shrink-0 w-[350px] sm:w-[420px] mx-4 snap-center bg-gradient-to-br from-gray-900/90 to-black/90 backdrop-blur-xl rounded-2xl overflow-hidden border border-red-900/30 shadow-2xl"
                                     style={{
                                         scrollSnapAlign: 'center',
                                         boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.8), inset 0 1px 0 rgba(255, 255, 255, 0.1)'
@@ -586,7 +586,7 @@ const Projects = () => {
                                         <motion.div
                                             initial={{ opacity: 0 }}
                                             whileHover={{ opacity: 1 }}
-                                            className="absolute inset-0 bg-red-600/20"
+                                            className="absolute inset-0 bg-red-900/20"
                                         />
                                         {/* Category Badge */}
                                         <motion.div
@@ -595,7 +595,7 @@ const Projects = () => {
                                             transition={{ duration: 0.5, delay: 0.3 }}
                                             className="absolute bottom-4 left-4 flex gap-2"
                                         >
-                                            <span className="bg-gradient-to-r from-red-600 to-red-500 text-white text-sm px-4 py-2 rounded-full font-bold shadow-lg border border-red-400/50">
+                                            <span className="bg-gradient-to-r from-red-900 to-red-800 text-white text-sm px-4 py-2 rounded-full font-bold shadow-lg border border-red-800/50">
                                                 {project.category || project.industry}
                                             </span>
                                         </motion.div>
@@ -608,7 +608,7 @@ const Projects = () => {
                                         </div>
 
                                         {/* Location with icon */}
-                                        <div className="flex items-center text-red-400 text-sm mb-4">
+                                        <div className="flex items-center text-red-900 text-sm mb-4">
                                             <span className="flex items-center">
                                                 <motion.svg 
                                                     whileHover={{ scale: 1.2 }}
@@ -635,13 +635,13 @@ const Projects = () => {
                                             {/* Timeline */}
                                             <motion.div
                                                 whileHover={{ scale: 1.05, y: -2 }}
-                                                className="bg-black/50 rounded-xl p-4 border border-red-600/30 flex items-center group"
+                                                className="bg-black/50 rounded-xl p-4 border border-red-900/30 flex items-center group"
                                             >
                                                 <motion.svg 
                                                     whileHover={{ rotate: 360 }}
                                                     transition={{ duration: 0.6 }}
                                                     xmlns="http://www.w3.org/2000/svg" 
-                                                    className="h-5 w-5 text-red-500 mr-3 group-hover:text-red-400" 
+                                                    className="h-5 w-5 text-red-900 mr-3 group-hover:text-red-800" 
                                                     fill="none" 
                                                     viewBox="0 0 24 24" 
                                                     stroke="currentColor"
@@ -649,7 +649,7 @@ const Projects = () => {
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                                                 </motion.svg>
                                                 <div>
-<p className="text-xs text-gray-400 font-medium mb-1">Timeline</p>
+                                                    <p className="text-xs text-gray-400 font-medium mb-1">Timeline</p>
                                                     <p className="text-white text-sm font-bold">{project.timeline}</p>
                                                 </div>
                                             </motion.div>
@@ -657,13 +657,13 @@ const Projects = () => {
                                             {/* Total Area */}
                                             <motion.div
                                                 whileHover={{ scale: 1.05, y: -2 }}
-                                                className="bg-black/50 rounded-xl p-4 border border-red-600/30 flex items-center group"
+                                                className="bg-black/50 rounded-xl p-4 border border-red-900/30 flex items-center group"
                                             >
                                                 <motion.svg 
                                                     whileHover={{ rotate: 360 }}
                                                     transition={{ duration: 0.6 }}
                                                     xmlns="http://www.w3.org/2000/svg" 
-                                                    className="h-5 w-5 text-red-500 mr-3 group-hover:text-red-400" 
+                                                    className="h-5 w-5 text-red-900 mr-3 group-hover:text-red-800" 
                                                     fill="none" 
                                                     viewBox="0 0 24 24" 
                                                     stroke="currentColor"
@@ -679,13 +679,13 @@ const Projects = () => {
                                             {/* Budget */}
                                             <motion.div
                                                 whileHover={{ scale: 1.05, y: -2 }}
-                                                className="bg-black/50 rounded-xl p-4 border border-red-600/30 flex items-center group"
+                                                className="bg-black/50 rounded-xl p-4 border border-red-900/30 flex items-center group"
                                             >
                                                 <motion.svg 
                                                     whileHover={{ rotate: 360 }}
                                                     transition={{ duration: 0.6 }}
                                                     xmlns="http://www.w3.org/2000/svg" 
-                                                    className="h-5 w-5 text-red-500 mr-3 group-hover:text-red-400" 
+                                                    className="h-5 w-5 text-red-900 mr-3 group-hover:text-red-800" 
                                                     fill="none" 
                                                     viewBox="0 0 24 24" 
                                                     stroke="currentColor"
@@ -701,13 +701,13 @@ const Projects = () => {
                                             {/* Year */}
                                             <motion.div
                                                 whileHover={{ scale: 1.05, y: -2 }}
-                                                className="bg-black/50 rounded-xl p-4 border border-red-600/30 flex items-center group"
+                                                className="bg-black/50 rounded-xl p-4 border border-red-900/30 flex items-center group"
                                             >
                                                 <motion.svg 
                                                     whileHover={{ rotate: 360 }}
                                                     transition={{ duration: 0.6 }}
                                                     xmlns="http://www.w3.org/2000/svg" 
-                                                    className="h-5 w-5 text-red-500 mr-3 group-hover:text-red-400" 
+                                                    className="h-5 w-5 text-red-900 mr-3 group-hover:text-red-800" 
                                                     fill="none" 
                                                     viewBox="0 0 24 24" 
                                                     stroke="currentColor"
@@ -727,7 +727,7 @@ const Projects = () => {
                                             initial="initial"
                                             whileHover="hover"
                                             whileTap="tap"
-                                            className="w-full py-4 px-6 rounded-xl font-bold text-white text-lg shadow-lg transition-all duration-300 backdrop-blur-sm border border-red-500/50"
+                                            className="w-full py-4 px-6 rounded-xl font-bold text-white text-lg shadow-lg transition-all duration-300 backdrop-blur-sm border border-red-900/50"
                                             onClick={() => {
                                                 // Handle project details navigation
                                                 console.log('Navigate to project:', project.slug);
@@ -763,7 +763,7 @@ const Projects = () => {
                                         whileTap={{ scale: 0.8 }}
                                         className={`w-3 h-3 rounded-full transition-all duration-300 ${
                                             index === Math.floor(scrollPosition / 350) 
-                                                ? 'bg-red-500 shadow-lg' 
+                                                ? 'bg-red-900 shadow-lg' 
                                                 : 'bg-gray-600 hover:bg-gray-500'
                                         }`}
                                         onClick={() => {
@@ -794,12 +794,12 @@ const Projects = () => {
                         animate={controls}
                         whileHover="hover"
                         custom={0}
-                        className="bg-gradient-to-br from-red-900/50 to-black/50 backdrop-blur-xl rounded-2xl p-6 text-center border border-red-600/30 shadow-2xl"
+                        className="bg-gradient-to-br from-red-900/50 to-black/50 backdrop-blur-xl rounded-2xl p-6 text-center border border-red-900/30 shadow-2xl"
                     >
                         <motion.div
                             animate={{ rotate: [0, 360] }}
                             transition={{ duration: 3, repeat: Infinity, ease: "linear" }}
-                            className="text-4xl font-black text-red-400 mb-2"
+                            className="text-4xl font-black text-red-900 mb-2"
                         >
                             {ourProjects.length}+
                         </motion.div>
@@ -812,12 +812,12 @@ const Projects = () => {
                         animate={controls}
                         whileHover="hover"
                         custom={1}
-                        className="bg-gradient-to-br from-red-900/50 to-black/50 backdrop-blur-xl rounded-2xl p-6 text-center border border-red-600/30 shadow-2xl"
+                        className="bg-gradient-to-br from-red-900/50 to-black/50 backdrop-blur-xl rounded-2xl p-6 text-center border border-red-900/30 shadow-2xl"
                     >
                         <motion.div
                             animate={{ scale: [1, 1.1, 1] }}
                             transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-                            className="text-4xl font-black text-red-400 mb-2"
+                            className="text-4xl font-black text-red-900 mb-2"
                         >
                             ₹800Cr+
                         </motion.div>
@@ -830,12 +830,12 @@ const Projects = () => {
                         animate={controls}
                         whileHover="hover"
                         custom={2}
-                        className="bg-gradient-to-br from-red-900/50 to-black/50 backdrop-blur-xl rounded-2xl p-6 text-center border border-red-600/30 shadow-2xl"
+                        className="bg-gradient-to-br from-red-900/50 to-black/50 backdrop-blur-xl rounded-2xl p-6 text-center border border-red-900/30 shadow-2xl"
                     >
                         <motion.div
                             animate={{ y: [0, -5, 0] }}
                             transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-                            className="text-4xl font-black text-red-400 mb-2"
+                            className="text-4xl font-black text-red-900 mb-2"
                         >
                             12M+
                         </motion.div>
@@ -848,12 +848,12 @@ const Projects = () => {
                         animate={controls}
                         whileHover="hover"
                         custom={3}
-                        className="bg-gradient-to-br from-red-900/50 to-black/50 backdrop-blur-xl rounded-2xl p-6 text-center border border-red-600/30 shadow-2xl"
+                        className="bg-gradient-to-br from-red-900/50 to-black/50 backdrop-blur-xl rounded-2xl p-6 text-center border border-red-900/30 shadow-2xl"
                     >
                         <motion.div
                             animate={{ rotate: [0, 180, 360] }}
                             transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-                            className="text-4xl font-black text-red-400 mb-2"
+                            className="text-4xl font-black text-red-900 mb-2"
                         >
                             5+
                         </motion.div>

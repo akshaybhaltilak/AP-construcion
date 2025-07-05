@@ -124,7 +124,7 @@ function About() {
                             variants={fadeIn}
                         >
                             <span className="text-white">Building </span>
-                            <span className="text-red-500">Tomorrow's</span>
+                            <span className="text-red-900">Tomorrow's</span>
                             <span className="block text-white">Landmarks Today</span>
                         </motion.h1>
                         <motion.p
@@ -138,9 +138,9 @@ function About() {
                             variants={fadeIn}
                         >
                             <div className="inline-flex items-center space-x-4">
-                                <div className="h-1 w-20 bg-red-500"></div>
-                                <span className="text-red-500 font-medium">EST. 2010</span>
-                                <div className="h-1 w-20 bg-red-500"></div>
+                                <div className="h-1 w-20 bg-red-900"></div>
+                                <span className="text-red-900 font-medium">EST. 2010</span>
+                                <div className="h-1 w-20 bg-red-900"></div>
                             </div>
                         </motion.div>
                     </div>
@@ -161,8 +161,8 @@ function About() {
                                 className="w-full md:w-5/12 relative mb-8 md:mb-0"
                                 variants={fadeIn}
                             >
-                                <div className="absolute inset-0 bg-red-500 rounded-xl transform -rotate-3 scale-105 z-0"></div>
-                                <div className="absolute inset-0 border-4 border-red-500 rounded-xl transform rotate-3 scale-105 z-0 opacity-70"></div>
+                                <div className="absolute inset-0 bg-red-900 rounded-xl transform -rotate-3 scale-105 z-0"></div>
+                                <div className="absolute inset-0 border-4 border-red-900 rounded-xl transform rotate-3 scale-105 z-0 opacity-70"></div>
                                 <img
                                     src="https://media-bom1-2.cdn.whatsapp.net/v/t61.24694-24/429813849_1186320302370762_6001324166806614634_n.jpg?ccb=11-4&oh=01_Q5Aa1wEzSQn60T8vLy9PmWUdV8HBO0PCjjLekNg0XupznfgBLg&oe=685CDC06&_nc_sid=5e03e0&_nc_cat=110"
                                     alt="AP Construction Team"
@@ -176,24 +176,24 @@ function About() {
                                 variants={fadeIn}
                             >
                                 <div className="flex items-center">
-                                    <div className="h-0.5 w-16 bg-red-500 mr-4"></div>
+                                    <div className="h-0.5 w-16 bg-red-900 mr-4"></div>
                                     <h2 className="text-3xl md:text-4xl font-bold">
-                                        <span className="text-red-500">About</span> AP Construction
+                                        <span className="text-red-900">About</span> AP Construction
                                     </h2>
                                 </div>
 
                                 <p className="text-lg text-gray-300 leading-relaxed">
-                                    Since 2010, <span className="font-semibold text-red-500">AP Construction</span> has been at the forefront of India's construction industry, delivering landmark projects that redefine skylines and set new standards in quality.
+                                    Since 2010, <span className="font-semibold text-red-900">AP Construction</span> has been at the forefront of India's construction industry, delivering landmark projects that redefine skylines and set new standards in quality.
                                 </p>
 
                                 {/* Mission & Vision */}
                                 <motion.div
-                                    className="bg-gray-900 p-8 rounded-xl border-l-4 border-red-500 shadow-lg hover:shadow-xl transition-all"
+                                    className="bg-gray-900 p-8 rounded-xl border-l-4 border-red-900 shadow-lg hover:shadow-xl transition-all"
                                     whileHover={{ y: -5 }}
                                     transition={{ duration: 0.3 }}
                                 >
                                     <h3 className="text-2xl font-semibold mb-6 flex items-center">
-                                        <svg className="w-6 h-6 text-red-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <svg className="w-6 h-6 text-red-900 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
                                         </svg>
                                         Our Mission & Vision
@@ -210,7 +210,7 @@ function About() {
                                         )}
                                     </p>
                                     <motion.button
-                                        className="mt-6 text-red-500 text-base font-medium flex items-center hover:text-red-400 group"
+                                        className="mt-6 text-red-900 text-base font-medium flex items-center hover:text-red-800 group"
                                         onClick={() => setShowFullMission(!showFullMission)}
                                         whileHover={{ scale: 1.03 }}
                                         whileTap={{ scale: 0.97 }}
@@ -241,10 +241,10 @@ function About() {
                                     className="text-3xl md:text-4xl font-bold mb-6"
                                     variants={fadeIn}
                                 >
-                                    <span className="text-red-500">Meet</span> Our Leadership
+                                    <span className="text-red-900">Meet</span> Our Leadership
                                 </motion.h2>
                                 <motion.div 
-                                    className="h-1 w-24 bg-red-500 mx-auto"
+                                    className="h-1 w-24 bg-red-900 mx-auto"
                                     variants={fadeIn}
                                 ></motion.div>
                             </div>
@@ -253,14 +253,14 @@ function About() {
                                 {engineers.map((engineer) => (
                                     <motion.div
                                         key={engineer.id}
-                                        className="bg-gray-900 rounded-xl overflow-hidden shadow-2xl hover:shadow-red-500/20 transition-all border border-gray-800 relative group"
+                                        className="bg-gray-900 rounded-xl overflow-hidden shadow-2xl hover:shadow-red-900/20 transition-all border border-gray-800 relative group"
                                         variants={fadeIn}
                                         whileHover={{ y: -8 }}
                                         transition={{ duration: 0.3 }}
                                     >
                                         <div className="relative h-80">
                                             <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent z-10 opacity-90"></div>
-                                            <div className="absolute inset-0 bg-gradient-to-r from-red-500/10 to-transparent z-10"></div>
+                                            <div className="absolute inset-0 bg-gradient-to-r from-red-900/10 to-transparent z-10"></div>
                                             <img
                                                 src="https://media-bom1-2.cdn.whatsapp.net/v/t61.24694-24/429813849_1186320302370762_6001324166806614634_n.jpg?ccb=11-4&oh=01_Q5Aa1wEzSQn60T8vLy9PmWUdV8HBO0PCjjLekNg0XupznfgBLg&oe=685CDC06&_nc_sid=5e03e0&_nc_cat=110"
                                                 alt={engineer.name}
@@ -268,7 +268,7 @@ function About() {
                                             />
                                             <div className="absolute bottom-0 left-0 right-0 p-6 text-white z-20">
                                                 <h3 className="text-2xl font-bold mb-1">{engineer.name}</h3>
-                                                <p className="text-sm font-medium bg-red-500 inline-block px-4 py-1 rounded-full">
+                                                <p className="text-sm font-medium bg-red-900 inline-block px-4 py-1 rounded-full">
                                                     {engineer.title}
                                                 </p>
                                             </div>
@@ -278,7 +278,7 @@ function About() {
                                             <div className="flex justify-between mb-6 border-b border-gray-800 pb-6">
                                                 {engineer.stats.map((stat, index) => (
                                                     <div key={index} className="text-center">
-                                                        <div className="text-2xl font-bold text-red-500">{stat.value}</div>
+                                                        <div className="text-2xl font-bold text-red-900">{stat.value}</div>
                                                         <div className="text-xs text-gray-400 uppercase tracking-wider">{stat.label}</div>
                                                     </div>
                                                 ))}
@@ -295,14 +295,14 @@ function About() {
                                                     animate={{ opacity: 1 }}
                                                     transition={{ duration: 0.3 }}
                                                 >
-                                                    <p className="italic text-red-400 text-base">
+                                                    <p className="italic text-red-800 text-base">
                                                         "{engineer.quote}"
                                                     </p>
                                                 </motion.div>
                                             )}
 
                                             <motion.button
-                                                className="mt-6 text-red-500 text-base font-medium flex items-center hover:text-red-400 group"
+                                                className="mt-6 text-red-900 text-base font-medium flex items-center hover:text-red-800 group"
                                                 onClick={() => setExpandedCard(expandedCard === engineer.id ? null : engineer.id)}
                                                 whileHover={{ scale: 1.03 }}
                                                 whileTap={{ scale: 0.97 }}
@@ -332,9 +332,9 @@ function About() {
                         >
                             <div className="text-center mb-16">
                                 <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                                    <span className="text-red-500">Our</span> Core Values
+                                    <span className="text-red-900">Our</span> Core Values
                                 </h2>
-                                <div className="h-1 w-24 bg-red-500 mx-auto"></div>
+                                <div className="h-1 w-24 bg-red-900 mx-auto"></div>
                             </div>
 
                             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -343,7 +343,7 @@ function About() {
                                         title: "Innovation",
                                         desc: "Pioneering new construction techniques and smart building solutions",
                                         icon: (
-                                            <svg className="w-10 h-10 text-red-500 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <svg className="w-10 h-10 text-red-900 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
                                             </svg>
                                         )
@@ -352,7 +352,7 @@ function About() {
                                         title: "Precision",
                                         desc: "Meticulous attention to detail in every aspect of construction",
                                         icon: (
-                                            <svg className="w-10 h-10 text-red-500 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <svg className="w-10 h-10 text-red-900 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path>
                                             </svg>
                                         )
@@ -361,7 +361,7 @@ function About() {
                                         title: "Integrity",
                                         desc: "Honest, transparent dealings with clients and partners",
                                         icon: (
-                                            <svg className="w-10 h-10 text-red-500 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <svg className="w-10 h-10 text-red-900 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
                                             </svg>
                                         )
@@ -370,7 +370,7 @@ function About() {
                                         title: "Sustainability",
                                         desc: "Environmentally responsible construction practices",
                                         icon: (
-                                            <svg className="w-10 h-10 text-red-500 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <svg className="w-10 h-10 text-red-900 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path>
                                             </svg>
                                         )
@@ -383,7 +383,7 @@ function About() {
                                         variants={fadeIn}
                                     >
                                         {item.icon}
-                                        <h3 className="text-xl font-semibold text-white mb-3 group-hover:text-red-400 transition-colors">{item.title}</h3>
+                                        <h3 className="text-xl font-semibold text-white mb-3 group-hover:text-red-800 transition-colors">{item.title}</h3>
                                         <p className="text-gray-400">{item.desc}</p>
                                     </motion.div>
                                 ))}
@@ -410,7 +410,7 @@ function About() {
                                     variants={fadeIn}
                                     whileHover={{ scale: 1.05 }}
                                 >
-                                    <div className="text-4xl md:text-5xl font-bold text-red-500 mb-2">{stat.value}</div>
+                                    <div className="text-4xl md:text-5xl font-bold text-red-900 mb-2">{stat.value}</div>
                                     <div className="text-sm text-gray-400 uppercase tracking-wider">{stat.label}</div>
                                 </motion.div>
                             ))}

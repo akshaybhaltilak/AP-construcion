@@ -15,7 +15,7 @@ const Services = () => {
       image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
       longDescription: "Our comprehensive planning services include detailed project scoping, timeline development, resource allocation, and risk assessment. We create a solid foundation for your project with clear milestones and efficient workflows to ensure success from conception to completion.",
       icon: "📐",
-      color: "from-red-500 to-orange-500"
+      color: "from-red-900 to-orange-500"
     },
     {
       title: "Sanctioning",
@@ -104,7 +104,7 @@ const Services = () => {
         <div className="relative pt-40 pb-28 overflow-hidden bg-gradient-to-br from-gray-900 via-black to-gray-900">
           {/* Animated background elements */}
           <div className="absolute inset-0 overflow-hidden opacity-20">
-            <div className="absolute top-1/4 -left-20 w-96 h-96 bg-red-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob"></div>
+            <div className="absolute top-1/4 -left-20 w-96 h-96 bg-red-900 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob"></div>
             <div className="absolute top-1/3 -right-20 w-96 h-96 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000"></div>
             <div className="absolute bottom-1/4 left-1/2 w-96 h-96 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
           </div>
@@ -117,7 +117,7 @@ const Services = () => {
               className="max-w-4xl mx-auto"
             >
               <motion.h1
-                className="text-5xl md:text-6xl lg:text-7xl font-bold text-center mb-6 text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-red-600"
+                className="text-5xl md:text-6xl lg:text-7xl font-bold text-center mb-6 text-transparent bg-clip-text bg-gradient-to-r from-red-900 to-red-800"
                 initial={{ opacity: 0, y: 15 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.1 }}
@@ -136,7 +136,7 @@ const Services = () => {
               </motion.h2>
 
               <motion.div
-                className="w-24 h-1.5 bg-gradient-to-r from-red-500 to-red-300 mb-8 mx-auto rounded-full"
+                className="w-24 h-1.5 bg-gradient-to-r from-red-900 to-red-700 mb-8 mx-auto rounded-full"
                 initial={{ width: 0 }}
                 animate={{ width: 96 }}
                 transition={{ duration: 0.8, delay: 0.4 }}
@@ -205,7 +205,7 @@ const Services = () => {
               </motion.p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <motion.button
-                  className="bg-gradient-to-r from-red-600 to-red-800 hover:from-red-700 hover:to-red-900 px-8 py-4 rounded-xl font-bold text-lg text-white shadow-lg transition-all duration-300 hover:shadow-xl flex items-center justify-center gap-2"
+                  className="bg-gradient-to-r from-red-900 to-red-800 hover:from-red-900 hover:to-red-700 px-8 py-4 rounded-xl font-bold text-lg text-white shadow-lg transition-all duration-300 hover:shadow-xl flex items-center justify-center gap-2"
                   whileHover={{ scale: 1.05, y: -3 }}
                   whileTap={{ scale: 0.98 }}
                   onClick={() => navigate('/contact')}
@@ -366,7 +366,7 @@ const Services = () => {
                       Close
                     </motion.button>
                     <motion.button
-                      className="flex-1 py-4 px-6 bg-gradient-to-r from-red-600 to-red-800 hover:from-red-700 hover:to-red-900 rounded-xl font-medium text-white transition-colors flex items-center justify-center gap-2"
+                      className="flex-1 py-4 px-6 bg-gradient-to-r from-red-900 to-red-800 hover:from-red-900 hover:to-red-700 rounded-xl font-medium text-white transition-colors flex items-center justify-center gap-2"
                       whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={goToContact}

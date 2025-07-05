@@ -91,18 +91,18 @@ const ContactForm = () => {
   const inputVariants = {
     focus: {
       scale: 1.02,
-      boxShadow: "0 0 0 2px rgba(255, 71, 87, 0.5)",
-      borderColor: "#ff4757"
+      boxShadow: "0 0 0 2px rgba(136, 19, 55, 0.5)",
+      borderColor: "#881337"
     }
   };
 
   const buttonVariants = {
     initial: {
-      backgroundColor: "#ff4757",
+      backgroundColor: "#881337",
       scale: 1
     },
     hover: {
-      backgroundColor: "#ff6b81",
+      backgroundColor: "#9f1239",
       scale: 1.02,
       transition: {
         duration: 0.2
@@ -112,7 +112,7 @@ const ContactForm = () => {
       scale: 0.98
     },
     submitting: {
-      backgroundColor: "#ff6b81",
+      backgroundColor: "#9f1239",
       scale: 0.98
     }
   };
@@ -144,16 +144,16 @@ const ContactForm = () => {
   return (
     <>
       <Helmet>
-        <title>Contact AP Construction | Premium Construction Services</title>
-        <meta name="description" content="Connect with AP Construction for all your construction needs. Request quotes, schedule consultations, or discuss your building project with our expert team." />
-        <meta name="keywords" content="AP Construction contact, construction company contact, premium construction services, building contractors contact" />
-        <link rel="canonical" href="https://apconstruction.com/contact" />
+        <title>Contact Emerge Construction | Premium Construction Services</title>
+        <meta name="description" content="Connect with Emerge Construction for all your construction needs. Request quotes, schedule consultations, or discuss your building project with our expert team." />
+        <meta name="keywords" content="Emerge Construction contact, construction company contact, premium construction services, building contractors contact" />
+        <link rel="canonical" href="https://emergeconstruction.com/contact" />
 
         {/* Open Graph tags */}
-        <meta property="og:title" content="Contact AP Construction | Premium Construction Services" />
-        <meta property="og:description" content="Connect with AP Construction for all your construction needs. Request quotes or discuss your building project with our expert team." />
-        <meta property="og:image" content="https://apconstruction.com/contact-og-image.jpg" />
-        <meta property="og:url" content="https://apconstruction.com/contact" />
+        <meta property="og:title" content="Contact Emerge Construction | Premium Construction Services" />
+        <meta property="og:description" content="Connect with Emerge Construction for all your construction needs. Request quotes or discuss your building project with our expert team." />
+        <meta property="og:image" content="https://emergeconstruction.com/contact-og-image.jpg" />
+        <meta property="og:url" content="https://emergeconstruction.com/contact" />
         <meta property="og:type" content="website" />
 
         <meta name="format-detection" content="telephone=yes" />
@@ -162,13 +162,13 @@ const ContactForm = () => {
             {
               "@context": "https://schema.org",
               "@type": "ContactPage",
-              "name": "Contact AP Construction",
-              "description": "Contact AP Construction for premium construction services",
+              "name": "Contact Emerge Construction",
+              "description": "Contact Emerge Construction for premium construction services",
               "mainEntity": {
                 "@type": "Organization",
-                "name": "AP Construction",
+                "name": "Emerge Construction",
                 "telephone": "+91 YOUR_PHONE_NUMBER",
-                "email": "contact@apconstruction.com",
+                "email": "contact@emergeconstruction.com",
                 "address": {
                   "@type": "PostalAddress",
                   "streetAddress": "Your Street Address",
@@ -186,8 +186,8 @@ const ContactForm = () => {
       <div className="relative py-16 px-4 sm:px-6 lg:px-8 overflow-hidden bg-gray-900" id="contact">
         {/* Animated background elements */}
         <div className="absolute inset-0 overflow-hidden opacity-10">
-          <div className="absolute top-0 left-1/4 w-64 h-64 bg-red-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob"></div>
-          <div className="absolute top-0 right-1/4 w-64 h-64 bg-red-600 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000"></div>
+          <div className="absolute top-0 left-1/4 w-64 h-64 bg-red-900 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob"></div>
+          <div className="absolute top-0 right-1/4 w-64 h-64 bg-red-800 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000"></div>
           <div className="absolute bottom-0 left-1/2 w-64 h-64 bg-red-700 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
         </div>
 
@@ -201,7 +201,7 @@ const ContactForm = () => {
           >
             <motion.h2
               variants={cardVariants}
-              className="text-sm uppercase tracking-widest text-red-500 mb-4 font-semibold"
+              className="text-sm uppercase tracking-widest text-red-900 mb-4 font-semibold"
             >
               Get In Touch
             </motion.h2>
@@ -209,7 +209,7 @@ const ContactForm = () => {
               variants={cardVariants}
               className="text-4xl md:text-5xl font-bold mb-6 text-white"
             >
-              Let's Build <span className="text-red-500">Together</span>
+              Let's Build <span className="text-red-900">Together</span>
             </motion.h1>
             <motion.p
               variants={cardVariants}
@@ -238,19 +238,19 @@ const ContactForm = () => {
                     transition={{ type: "spring", stiffness: 200 }}
                     className="mx-auto flex items-center justify-center h-20 w-20 rounded-full bg-red-900/20 mb-8"
                   >
-                    <FiCheckCircle className="h-10 w-10 text-red-500" />
+                    <FiCheckCircle className="h-10 w-10 text-red-900" />
                   </motion.div>
                   <h3 className="text-2xl font-bold text-white mb-4">
                     Message Sent Successfully!
                   </h3>
                   <p className="text-gray-300 mb-8">
-                    Thank you for contacting AP Construction. Our team will get back to you within 24 hours.
+                    Thank you for contacting Emerge Construction. Our team will get back to you within 24 hours.
                   </p>
                   <motion.button
                     onClick={() => setSubmitSuccess(false)}
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
-                    className="px-8 py-3 bg-red-600 text-white rounded-lg font-medium hover:bg-red-700 transition-colors shadow-lg"
+                    className="px-8 py-3 bg-red-900 text-white rounded-lg font-medium hover:bg-red-800 transition-colors shadow-lg"
                   >
                     Send Another Message
                   </motion.button>
@@ -281,7 +281,7 @@ const ContactForm = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                       <motion.div variants={cardVariants} className="relative">
                         <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-2">
-                          Your Name <span className="text-red-500">*</span>
+                          Your Name <span className="text-red-900">*</span>
                         </label>
                         <div className="relative">
                           <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -325,7 +325,7 @@ const ContactForm = () => {
 
                     <motion.div variants={cardVariants} className="relative">
                       <label htmlFor="phone" className="block text-sm font-medium text-gray-300 mb-2">
-                        Phone Number <span className="text-red-500">*</span>
+                        Phone Number <span className="text-red-900">*</span>
                       </label>
                       <div className="relative">
                         <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -347,7 +347,7 @@ const ContactForm = () => {
 
                     <motion.div variants={cardVariants} className="relative">
                       <label htmlFor="message" className="block text-sm font-medium text-gray-300 mb-2">
-                        Your Message <span className="text-red-500">*</span>
+                        Your Message <span className="text-red-900">*</span>
                       </label>
                       <div className="relative">
                         <div className="absolute top-3 left-3 flex items-start pointer-events-none">
@@ -422,12 +422,12 @@ const ContactForm = () => {
                       className="flex items-start space-x-5"
                     >
                       <div className="flex-shrink-0 bg-red-900/20 p-3 rounded-lg">
-                        <FiMail className="h-6 w-6 text-red-500" />
+                        <FiMail className="h-6 w-6 text-red-900" />
                       </div>
                       <div>
                         <h3 className="text-lg font-medium text-white mb-1">Email Us</h3>
-                        <a href="mailto:contact@apconstruction.com" className="text-gray-300 hover:text-red-400 transition-colors">
-                          contact@apconstruction.com
+                        <a href="mailto:contact@emergeconstruction.com" className="text-gray-300 hover:text-red-800 transition-colors">
+                          contact@emergeconstruction.com
                         </a>
                       </div>
                     </motion.div>
@@ -437,15 +437,15 @@ const ContactForm = () => {
                       className="flex items-start space-x-5"
                     >
                       <div className="flex-shrink-0 bg-red-900/20 p-3 rounded-lg">
-                        <FiPhone className="h-6 w-6 text-red-500" />
+                        <FiPhone className="h-6 w-6 text-red-900" />
                       </div>
                       <div>
                         <h3 className="text-lg font-medium text-white mb-1">Call Us</h3>
-                        <a href="tel:+91YOUR_PHONE_NUMBER" className="text-gray-300 hover:text-red-400 transition-colors">
+                        <a href="tel:+91YOUR_PHONE_NUMBER" className="text-gray-300 hover:text-red-800 transition-colors">
                           +91 YOUR_PHONE_NUMBER
                         </a>
                         <br />
-                        <a href="tel:+91YOUR_SECONDARY_NUMBER" className="text-gray-300 hover:text-red-400 transition-colors">
+                        <a href="tel:+91YOUR_SECONDARY_NUMBER" className="text-gray-300 hover:text-red-800 transition-colors">
                           +91 YOUR_SECONDARY_NUMBER
                         </a>
                       </div>
@@ -456,7 +456,7 @@ const ContactForm = () => {
                       className="flex items-start space-x-5"
                     >
                       <div className="flex-shrink-0 bg-red-900/20 p-3 rounded-lg">
-                        <FiMapPin className="h-6 w-6 text-red-500" />
+                        <FiMapPin className="h-6 w-6 text-red-900" />
                       </div>
                       <div>
                         <h3 className="text-lg font-medium text-white mb-1">Visit Us</h3>
@@ -473,7 +473,7 @@ const ContactForm = () => {
                       className="flex items-start space-x-5"
                     >
                       <div className="flex-shrink-0 bg-red-900/20 p-3 rounded-lg">
-                        <svg className="h-6 w-6 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg className="h-6 w-6 text-red-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                         </svg>
                       </div>
@@ -503,7 +503,7 @@ const ContactForm = () => {
                         href="#"
                         whileHover={{ y: -4 }}
                         whileTap={{ scale: 0.95 }}
-                        className="bg-gray-700 p-3 rounded-lg text-gray-300 hover:text-white hover:bg-red-600 transition-colors duration-300"
+                        className="bg-gray-700 p-3 rounded-lg text-gray-300 hover:text-white hover:bg-red-900 transition-colors duration-300"
                         aria-label={social.name}
                       >
                         <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">

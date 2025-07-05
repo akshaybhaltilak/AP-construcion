@@ -52,7 +52,7 @@ export default function Header() {
     return (
         <>
             {/* Red accent glow */}
-            <div className="fixed top-0 left-0 w-full h-24 bg-gradient-to-b from-red-500/10 via-red-500/5 to-transparent pointer-events-none z-30" />
+            <div className="fixed top-0 left-0 w-full h-24 bg-gradient-to-b from-red-900/10 via-red-900/5 to-transparent pointer-events-none z-30" />
             
             <header className={`fixed w-full top-0 z-50 transition-all duration-300 ${
                 isScrolled 
@@ -68,18 +68,18 @@ export default function Header() {
                             onClick={(e) => handleLinkClick(e, "#home", "home")}
                         >
                             <div className="relative">
-                                <div className="w-12 h-12 bg-gradient-to-br from-red-600 to-red-700 rounded-lg flex items-center justify-center shadow-lg group-hover:shadow-red-500/30 transition-all duration-300">
+                                <div className="w-12 h-12 bg-gradient-to-br from-red-900 to-red-900 rounded-lg flex items-center justify-center shadow-lg group-hover:shadow-red-900/30 transition-all duration-300">
                                    <img src="logo1.jpeg" alt="" />
                                 </div>
                                 <div className="absolute -top-1 -right-1 w-4 h-4 bg-white rounded-full flex items-center justify-center">
-                                    <div className="w-2 h-2 bg-red-500 rounded-full animate-pulse"></div>
+                                    <div className="w-2 h-2 bg-red-900 rounded-full animate-pulse"></div>
                                 </div>
                             </div>
                             <div className="flex flex-col">
-                                <span className="text-xl font-bold text-white group-hover:text-red-400 transition-colors duration-300">
+                                <span className="text-xl font-bold text-white group-hover:text-red-900 transition-colors duration-300">
                                     AP Construction
                                 </span>
-                                <span className="text-xs text-red-400 tracking-wider font-medium">
+                                <span className="text-xs text-red-900 tracking-wider font-medium">
                                     BUILDING EXCELLENCE
                                 </span>
                             </div>
@@ -100,7 +100,7 @@ export default function Header() {
                                     >
                                         {item.name}
                                         {activeLink === item.key && (
-                                            <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-3/4 h-0.5 bg-red-500 rounded-full"></span>
+                                            <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-3/4 h-0.5 bg-red-900 rounded-full"></span>
                                         )}
                                         {item.submenu && (
                                             <ChevronDown className="ml-1 w-5 h-5 group-hover:rotate-180 transition-transform duration-300" />
@@ -127,9 +127,9 @@ export default function Header() {
                             {/* Phone number with red accent */}
                             <a
                                 href="tel:+911234567890"
-                                className="flex items-center space-x-2 ml-4 px-4 py-2 rounded-lg hover:bg-red-600 text-white transition-all duration-300 group border border-red-500"
+                                className="flex items-center space-x-2 ml-4 px-4 py-2 rounded-lg hover:bg-red-900 text-white transition-all duration-300 group border border-red-900"
                             >
-                                <Phone className="w-5 h-5 text-red-400 group-hover:text-white transition-colors" />
+                                <Phone className="w-5 h-5 text-red-900 group-hover:text-white transition-colors" />
                                 <span className="font-medium">
                                     +91 1234567890
                                 </span>
@@ -139,11 +139,11 @@ export default function Header() {
                         {/* Mobile Menu Button */}
                         <button
                             onClick={toggleMenu}
-                            className="lg:hidden p-2 focus:outline-none text-gray-300 hover:text-red-400 transition-colors"
+                            className="lg:hidden p-2 focus:outline-none text-gray-300 hover:text-red-900 transition-colors"
                             aria-label="Toggle menu"
                         >
                             {isMenuOpen ? (
-                                <X className="text-2xl text-red-400" />
+                                <X className="text-2xl text-red-900" />
                             ) : (
                                 <Menu className="text-2xl" />
                             )}
@@ -171,7 +171,7 @@ export default function Header() {
                                             >
                                                 {item.name}
                                                 {activeLink === item.key && (
-                                                    <span className="absolute bottom-2 left-4 w-3/4 h-0.5 bg-red-500 rounded-full"></span>
+                                                    <span className="absolute bottom-2 left-4 w-3/4 h-0.5 bg-red-900 rounded-full"></span>
                                                 )}
                                             </a>
                                             {item.submenu && (
@@ -203,7 +203,7 @@ export default function Header() {
                                     href="tel:+911234567890"
                                     className="flex items-center px-4 py-3 mt-2 text-gray-300 hover:text-white hover:bg-gray-700 transition-colors duration-200 border-t border-gray-700"
                                 >
-                                    <Phone className="w-5 h-5 mr-2 text-red-400" />
+                                    <Phone className="w-5 h-5 mr-2 text-red-900" />
                                     <span className="font-medium">+91 1234567890</span>
                                 </a>
                             </div>

@@ -224,7 +224,7 @@ const Stats = () => {
                     className="text-center mb-12 lg:mb-16"
                 >
                     <motion.h2
-                        className="text-3xl md:text-4xl font-bold text-center mb-4 text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-400"
+                        className="text-3xl md:text-4xl font-bold text-center mb-4 text-transparent bg-clip-text bg-gradient-to-r from-red-900 to-red-800"
                         initial={{ opacity: 0, y: 15 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, delay: 0.1 }}
@@ -257,7 +257,7 @@ const Stats = () => {
                                     variants={itemVariants}
                                     whileHover={{
                                         y: -5,
-                                        boxShadow: "0 10px 25px -5px rgba(255, 165, 0, 0.1)",
+                                        boxShadow: "0 10px 25px -5px rgba(239, 68, 68, 0.1)",
                                     }}
                                     className="bg-gray-900 p-4 rounded-xl border border-gray-800 group transition-all duration-300 hover:red-orange-500 hover:shadow-lg"
                                 >
@@ -293,7 +293,7 @@ const Stats = () => {
                                 <motion.div
                                     key={index}
                                     variants={itemVariants}
-                                    className="flex items-start p-4 bg-gray-900 rounded-lg border border-gray-800 hover:border-red-500 transition-colors"
+                                    className="flex items-start p-4 bg-gray-900 rounded-lg border border-gray-800 hover:border-red-900 transition-colors"
                                 >
                                     <div className="flex-shrink-0 mt-1 mr-4 p-2 bg-red-900 rounded-full text-orange-300">
                                         {feature.icon}
@@ -317,12 +317,12 @@ const Stats = () => {
                         >
                             <div className="flex items-center justify-between mb-6">
                                 <h3 className="text-xl font-bold text-white flex items-center">
-                                    <Compass className="mr-2 text-red-400" />
+                                    <Compass className="mr-2 text-red-900" />
                                     Interactive Vastu Compass
                                 </h3>
                                 <button 
                                     onClick={() => setShowCompass(!showCompass)}
-                                    className="px-3 py-1 bg-red-600 hover:bg-red-700 text-white rounded text-sm transition-colors"
+                                    className="px-3 py-1 bg-red-900 hover:bg-red-800 text-white rounded text-sm transition-colors"
                                 >
                                     {showCompass ? 'Hide' : 'Explore'}
                                 </button>
@@ -332,7 +332,7 @@ const Stats = () => {
                                 <div className="space-y-6">
                                     {/* Compass Wheel */}
                                     <div className="relative w-64 h-64 mx-auto">
-                                        <div className="absolute inset-0 rounded-full bg-gradient-to-br from-red-800 to-yellow-800 p-4">
+                                        <div className="absolute inset-0 rounded-full bg-gradient-to-br from-red-900 to-yellow-800 p-4">
                                             <div className="w-full h-full rounded-full bg-gray-900 relative overflow-hidden">
                                                 {/* Compass Directions */}
                                                 {Object.entries(vastuDirections).map(([direction, info], index) => {
@@ -344,7 +344,7 @@ const Stats = () => {
                                                             onClick={() => handleDirectionClick(direction)}
                                                             className={`absolute w-12 h-12 rounded-full border-2 transition-all duration-300 ${
                                                                 isActive 
-                                                                    ? 'bg-red-500 border-red-300 scale-110' 
+                                                                    ? 'bg-red-900 border-red-300 scale-110' 
                                                                     : 'bg-gray-700 border-gray-600 hover:bg-gray-600'
                                                             }`}
                                                             style={{
@@ -361,7 +361,7 @@ const Stats = () => {
                                                 })}
                                                 
                                                 {/* Center Circle */}
-                                                <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-red-500 flex items-center justify-center">
+                                                <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-red-900 flex items-center justify-center">
                                                     <FaOm className="text-white text-sm" />
                                                 </div>
                                             </div>
@@ -377,7 +377,7 @@ const Stats = () => {
                                         >
                                             <div className="flex items-center mb-2">
                                                 {vastuDirections[activeDirection].icon}
-                                                <h4 className="text-lg font-bold text-red-400 ml-2">
+                                                <h4 className="text-lg font-bold text-red-900 ml-2">
                                                     {vastuDirections[activeDirection].name}
                                                 </h4>
                                             </div>
@@ -412,7 +412,7 @@ const Stats = () => {
                                                     onClick={() => setSelectedRoom(key)}
                                                     className={`p-2 rounded text-sm transition-colors ${
                                                         selectedRoom === key
-                                                            ? 'bg-red-600 text-white'
+                                                            ? 'bg-red-900 text-white'
                                                             : 'bg-gray-700 text-gray-300 hover:bg-gray-600'
                                                     }`}
                                                 >
@@ -456,7 +456,7 @@ const Stats = () => {
                                     </p>
                                     <button
                                         onClick={() => setShowCompass(true)}
-                                        className="px-6 py-2 bg-red-600 hover:bg-red-700 text-white rounded-lg font-medium transition-colors"
+                                        className="px-6 py-2 bg-red-900 hover:bg-red-800 text-white rounded-lg font-medium transition-colors"
                                     >
                                         Start Exploring
                                     </button>
