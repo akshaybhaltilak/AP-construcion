@@ -68,12 +68,12 @@ export default function Header() {
                             onClick={(e) => handleLinkClick(e, "#home", "home")}
                         >
                             <div className="relative">
-                                <div className="w-12 h-12 bg-gradient-to-br from-red-900 to-red-900 rounded-lg flex items-center justify-center shadow-lg group-hover:shadow-red-900/30 transition-all duration-300">
-                                   <img src="logo1.jpeg" alt="" />
+                                <div className="w-12 h-12  rounded-lg flex items-center justify-center shadow-lg group-hover:shadow-red-900/30 transition-all duration-300">
+                                   <img src="png.png" alt="" />
                                 </div>
-                                <div className="absolute -top-1 -right-1 w-4 h-4 bg-white rounded-full flex items-center justify-center">
+                                {/* <div className="absolute -top-1 -right-1 w-4 h-4 bg-white rounded-full flex items-center justify-center">
                                     <div className="w-2 h-2 bg-red-900 rounded-full animate-pulse"></div>
-                                </div>
+                                </div> */}
                             </div>
                             <div className="flex flex-col">
                                 <span className="text-xl font-bold text-white group-hover:text-red-900 transition-colors duration-300">

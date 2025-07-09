@@ -45,9 +45,9 @@ function SplashScreen() {
       <div className="text-center px-4 w-full max-w-md relative">
         {/* Animated Logo */}
         <div className="relative mb-8 mx-auto w-32 h-32">
-          <div className="absolute inset-0 rounded-full border-4 border-red-500 border-opacity-30 animate-spin-slow"></div>
-          <div className="absolute inset-2 rounded-full bg-gray-800 flex items-center justify-center shadow-lg">
-            <div className="text-4xl font-bold text-red-500 animate-pulse">AP</div>
+          <div className="absolute inset-0 rounded-full animate-spin-slow"></div>
+          <div className="absolute inset-2 rounded-full  flex items-center justify-center shadow-lg">
+            <div className="text-4xl font-bold text-red-500 animate-pulse"><img src="png.png" alt="" /></div>
           </div>
         </div>
 

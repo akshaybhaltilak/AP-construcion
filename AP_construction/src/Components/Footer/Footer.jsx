@@ -125,15 +125,15 @@ const Footer = () => {
                     <div className="space-y-6">
                         {/* Logo */}
                         <div className="flex items-center space-x-3 mb-6">
-                            <div className="w-12 h-12 rounded-lg flex items-center justify-center bg-gradient-to-br from-red-800 to-red-900 p-2 shadow-md">
+                            <div className="w-12 h-12 rounded-lg flex items-center justify-center  p-2 shadow-md">
                                 <img 
-                                    src="https://media-bom2-4.cdn.whatsapp.net/v/t61.24694-24/429813849_1186320302370762_6001324166806614634_n.jpg?ccb=11-4&oh=01_Q5Aa1wEzSQn60T8vLy9PmWUdV8HBO0PCjjLekNg0XupznfgBLg&oe=685CDC06&_nc_sid=5e03e0&_nc_cat=110" 
-                                    alt="Emerge Construction" 
+                                    src="png.png" 
+                                    alt="AP Construction Logo"
                                     className="w-full h-full object-contain" 
                                 />
                             </div>
                             <span className="text-2xl font-bold bg-gradient-to-r from-red-800 to-red-900 bg-clip-text text-transparent">
-                                Emerge Construction
+                                Ap Construction
                             </span>
                         </div>
 
