@@ -6,31 +6,29 @@ const Projects = () => {
     const ourProjects = [
         {
             id: 1,
-            title: "Skyline Residential Complex",
+            title: "DR RAVI B KAPKAR",
             category: "Residential",
-            imageUrl: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-            address: "Downtown Mumbai, Maharashtra",
-            shortDescription: "A luxurious 25-story residential complex featuring modern amenities, green spaces, and smart home technology.",
+            imageUrl: "https://res.cloudinary.com/dvfa1ub9w/image/upload/v1752726707/WhatsApp_Image_2025-07-16_at_19.36.27_f8kgdj.jpg",
+            address: "Akola, Maharashtra",
+            shortDescription: "Abheejit sir did a great for us,The team was efficient and quick",
             owner: {
-                name: "Rajesh Sharma",
-                position: "Managing Director",
-                photo: "https://randomuser.me/api/portraits/men/32.jpg"
+                name: "DR RAVI B KAPKAR",
+                photo: "https://res.cloudinary.com/dvfa1ub9w/image/upload/v1752726699/WhatsApp_Image_2025-07-16_at_19.35.28_quyhcm.jpg"
             },
             year: "2023",
-            likes: 245,
             status: "Completed"
         },
         {
             id: 2,
-            title: "Tech Hub Corporate Center",
-            category: "Commercial",
-            imageUrl: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-            address: "Bandra Kurla Complex, Mumbai",
-            shortDescription: "State-of-the-art commercial complex designed for tech companies with flexible workspaces and modern infrastructure.",
+            title: "Ramdas bhagat.",
+            category: "Residential",
+            imageUrl: "https://res.cloudinary.com/dvfa1ub9w/image/upload/v1752726704/WhatsApp_Image_2025-07-16_at_19.38.42_kyqrah.jpg",
+            address: "PRERNA Nagar KHADAKI AKOLA.",
+            shortDescription: "Mr. Abhigit parde is a excellent archkitecher engineer and he give the time to customer, as well as he think about the home owner how i give the perfection in the home, as per my knwoedge he is a good and save to home onwer. Lastely he is excellent. My self to pray to god. 🌹💐🙏👌",
             owner: {
-                name: "Priya Patel",
-                position: "CEO",
-                photo: "https://randomuser.me/api/portraits/women/44.jpg"
+                name: "Ramdas Bhagat",
+                position: "M. Sc. B. Ed. Ast. Teacher",
+                photo: "https://res.cloudinary.com/dvfa1ub9w/image/upload/v1752726663/WhatsApp_Image_2025-07-17_at_09.57.12_ynpitp.jpg"
             },
             year: "2024",
             likes: 189,
@@ -38,15 +36,15 @@ const Projects = () => {
         },
         {
             id: 3,
-            title: "Heritage Mall Renovation",
+            title: "दादाराव बाबाराव आठवले ",
             category: "Renovation",
-            imageUrl: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-            address: "Colaba, Mumbai",
-            shortDescription: "Complete renovation of a historic shopping mall blending traditional architecture with contemporary retail spaces.",
+            imageUrl: "https://res.cloudinary.com/dvfa1ub9w/image/upload/v1752726710/WhatsApp_Image_2025-07-16_at_19.40.19_pl63nj.jpg",
+            address: "खडकी, अकोला.",
+            shortDescription: "माझ्या घराचे बांधकाम आदरणीय श्री पारडे सर (इंजिनियर) व श्री एहसान खान (ठेकेदार) यांच्या मार्गदर्शनाखाली केले असून ,त्यांनी माझ्या स्वप्नाच्याही अपेक्षेपेक्षा उच्चत्तम दर्जाची इलेव्हेशन करून दिलेअसून आज मी आणि माझे कुटुंब त्यांच्या बांधकामावर खुश आहोत .कमी जागेवर माझे घर बांधून    दिलेत .पुढील आयुष्यामध्ये त्यांची अधिकाधिक प्रगती होवो हीच ईश्वरचरणी प्रार्थना करतो.  धन्यवाद सर🙏",
             owner: {
-                name: "Vikram Mehta",
-                position: "Director",
-                photo: "https://randomuser.me/api/portraits/men/67.jpg"
+                name: "दादाराव बाबाराव आठवले ",
+                position: "शिक्षक",
+                photo: "https://res.cloudinary.com/dvfa1ub9w/image/upload/v1752726691/WhatsApp_Image_2025-07-16_at_19.39.10_ftpn93.jpg"
             },
             year: "2023",
             likes: 312,
@@ -54,31 +52,31 @@ const Projects = () => {
         },
         {
             id: 4,
-            title: "Green Valley Township",
+            title: "sunil Shankar Navalkar",
             category: "Residential",
-            imageUrl: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-            address: "Pune, Maharashtra",
-            shortDescription: "Eco-friendly residential township with sustainable design, solar panels, and green building certification.",
+            imageUrl: "https://res.cloudinary.com/dvfa1ub9w/image/upload/a_90/v1752726691/WhatsApp_Image_2025-07-16_at_19.41.47_udfenr.jpg",
+            address: "khadkki",
+            shortDescription: "Eng Abhijit parde sar yanna mi kam deun kharokhar changla nirnay Ghetla karn tyanche kamtar changle ahech pn kadi office la suddha apla kahi chenjes asle tar changlya prakare samjun aplyala yogt margdarshan kartat Jay hind sar👏👏",
             owner: {
-                name: "Ananya Reddy",
-                position: "Chairperson",
-                photo: "https://randomuser.me/api/portraits/women/63.jpg"
+                name: "sunil Shankar Navalkar",
+                position: "EX Army",
+                photo: "https://res.cloudinary.com/dvfa1ub9w/image/upload/v1752726687/WhatsApp_Image_2025-07-16_at_19.41.10_il01ge.jpg"
             },
             year: "2024",
             likes: 156,
-            status: "In Progress"
+            status: "Completed"
         },
         {
             id: 5,
-            title: "Oceanview Luxury Villas",
+            title: "संजय तुळशीराम नेमाडे",
             category: "Residential",
-            imageUrl: "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+            imageUrl: "https://res.cloudinary.com/dvfa1ub9w/image/upload/v1752727126/WhatsApp_Image_2025-07-16_at_19.51.18_1_komwt2.jpg",
             address: "Alibaug, Maharashtra",
-            shortDescription: "Exclusive beachfront villas with private pools and panoramic ocean views.",
+            shortDescription: "AP कन्ट्रक्शन म्हणजे विश्वासाच दुसर नांव . . तुम्हाला हव असलेलं . . तुमच्या सर्व भावनांचा आदर व विचार करून .स्वप्नातील घर प्रत्यक्षात पूर्ण करून देणारं एकमेव ठिकाण",
             owner: {
-                name: "Nikhil Malhotra",
-                position: "Managing Partner",
-                photo: "https://randomuser.me/api/portraits/men/41.jpg"
+                name: "संजय तुळशीराम नेमाडे",
+                position: "शिक्षक",
+                photo: "https://res.cloudinary.com/dvfa1ub9w/image/upload/v1752726684/WhatsApp_Image_2025-07-16_at_19.45.22_ikkskr.jpg"
             },
             year: "2023",
             likes: 421,
@@ -86,18 +84,83 @@ const Projects = () => {
         },
         {
             id: 6,
-            title: "TechPark Bangalore",
-            category: "Commercial",
-            imageUrl: "https://images.unsplash.com/photo-1497366811353-6870744d04b2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+            title: "Prashant Rameshwar Navalkar",
+            category: "Residential",
+            imageUrl: "https://res.cloudinary.com/dvfa1ub9w/image/upload/v1752726688/WhatsApp_Image_2025-07-16_at_19.52.40_ps7jep.jpg",
             address: "Whitefield, Bangalore",
-            shortDescription: "State-of-the-art IT park with smart building technology and collaborative workspaces.",
+            shortDescription: "Dear Abhijeet Parde Sir,We are truly grateful to you for turning our dream of a beautiful home into reality. Your dedication, expertise, and attention to detail have made this journey so smooth and memorable for us.Thank you for guiding us through every step of the construction process with so much patience and care. This house is not just a building — it’s a dream fulfilled, and your hard work has made it possible.We feel blessed to have had an engineer like you by our side.🙏",
             owner: {
-                name: "Deepika Iyer",
-                position: "CEO",
-                photo: "https://randomuser.me/api/portraits/women/68.jpg"
+                name: "Prashant Rameshwar Navalkar",
+                position: "Manager at Bank of Baroda",
+                photo: "https://res.cloudinary.com/dvfa1ub9w/image/upload/v1752726676/WhatsApp_Image_2025-07-16_at_19.52.27_apowpf.jpg"
             },
             year: "2022",
             likes: 298,
+            status: "Completed"
+        },
+        {
+            id: 7,
+            title: "एस. एल. राठोड ",
+            category: "Residential",
+            imageUrl: "https://res.cloudinary.com/dvfa1ub9w/image/upload/v1752726687/WhatsApp_Image_2025-07-16_at_19.58.42_iiygli.jpg",
+            address: "संत नगरी कौलखेड अकोला ",
+            shortDescription: "माझ्या स्वप्न पूर्ती चे स्वप्न जेव्हा मी पहिले तेव्हा मी खूप फिरलो. मग माझी भेट इंजिनीर अभिजित सर यांच्याशी झाली.मित्रहो साहेब ईश्वर रूपात मला मिळाले.मला फक्त प्लॉट घेण्यास मदत केली नाही तर त्या प्लॉट ला सुंदर आकार देऊन एकउत्तुंग असे बिल्डिंग रुपी राहते अतिशय सुंदरस्वप्नातील घर एका वर्षात निर्माण करुन दिले सर आपण दिलेल्या या भेटी साठी मी आयुष्य भर आपला ऋणी आहे.",
+            owner: {
+                name: "एस. एल. राठोड ",
+                position: "",
+                photo: "https://res.cloudinary.com/dvfa1ub9w/image/upload/v1752726668/WhatsApp_Image_2025-07-16_at_19.54.53_cxjpru.jpg"
+            },
+            year: "2023",
+            likes: 421,
+            status: "Completed"
+        },
+        
+        {
+            id: 8,
+            title: "विजय श्रीराम अहिर ",
+            category: "Residential",
+            imageUrl: "https://res.cloudinary.com/dvfa1ub9w/image/upload/v1752726689/WhatsApp_Image_2025-07-16_at_20.00.19_cgu0er.jpg",
+            address: "नरेन्द्र नगर, अकोला",
+            shortDescription: "2 वर्षा पूर्वीचे स्वप्न पारडे साहेबांच्या माध्यमातून पूर्ण झाले. गेल्या वर्षी या नवीन वास्तूत प्रवेश केला आणि स्वप्नपूर्ती चा अनुभव साकार झाला.विश्वास व परंपरा चे नाव ए. पी कॉन्स्ट्रॅकशन. आज अकोला शहरात  अभिजित सरांनी गेल्या काही वर्षांपूर्वी एक रोप लावले होते त्याचे आज एका वृक्षात रूपांतर झालेले आहे. पारडे सरांनी पुढील वाटचाली करिता खूप खूप शुभेच्छा 🌹",
+            owner: {
+                name: "विजय श्रीराम अहिर ",
+                position: "",
+                photo: "https://res.cloudinary.com/dvfa1ub9w/image/upload/v1752726668/WhatsApp_Image_2025-07-16_at_19.59.11_retiit.jpg"
+            },
+            year: "2023",
+            likes: 421,
+            status: "Completed"
+        },
+        {
+            id: 9,
+            title: "Madan Punjaji Kamble",
+            category: "Residential",
+            imageUrl: "https://res.cloudinary.com/dvfa1ub9w/image/upload/v1752726679/WhatsApp_Image_2025-07-16_at_20.01.37_v3gqbv.jpg",
+            address: "Alibaug, Maharashtra",
+            shortDescription: "AP कन्ट्रक्शन म्हणजे विश्वासाच दुसर नांव . . तुम्हाला हव असलेलं . . तुमच्या सर्व भावनांचा आदर व विचार करून .स्वप्नातील घर प्रत्यक्षात पूर्ण करून देणारं एकमेव ठिकाण",
+            owner: {
+                name:"Madan Punjaji Kamble",
+                position: "Dy. Station ManagarAkola Rly. Station",
+                photo: "https://res.cloudinary.com/dvfa1ub9w/image/upload/v1752726666/WhatsApp_Image_2025-07-16_at_20.00.31_htcxka.jpg"
+            },
+            year: "2023",
+            likes: 421,
+            status: "Completed"
+        },
+        {
+            id: 10,
+            title: "Syed zakir husain",
+            category: "Residential",
+            imageUrl: "https://res.cloudinary.com/dvfa1ub9w/image/upload/v1752726685/WhatsApp_Image_2025-07-16_at_20.03.31_lwnkuc.jpg",
+            address: "Alibaug, Maharashtra",
+            shortDescription: "AP कन्ट्रक्शन म्हणजे विश्वासाच दुसर नांव . . तुम्हाला हव असलेलं . . तुमच्या सर्व भावनांचा आदर व विचार करून .स्वप्नातील घर प्रत्यक्षात पूर्ण करून देणारं एकमेव ठिकाण",
+            owner: {
+                name: "Syed zakir husain",
+                position: "ex sarpanch Barsitakli",
+                photo: "https://res.cloudinary.com/dvfa1ub9w/image/upload/v1752726665/WhatsApp_Image_2025-07-16_at_20.02.14_vzqaua.jpg"
+            },
+            year: "2023",
+            likes: 421,
             status: "Completed"
         }
     ];
@@ -300,20 +363,20 @@ const Projects = () => {
                                     </h2>
 
                                     {/* Location */}
-                                    <div className="flex items-center text-gray-300 mb-3">
+                                    {/* <div className="flex items-center text-gray-300 mb-3">
                                         <MapPin size={16} className="mr-2 text-red-400" />
                                         <span className="text-sm">{project.address}</span>
-                                    </div>
+                                    </div> */}
 
                                     {/* Year */}
-                                    <div className="flex items-center text-gray-300 mb-4">
+                                    {/* <div className="flex items-center text-gray-300 mb-4">
                                         <Calendar size={16} className="mr-2 text-red-400" />
                                         <span className="text-sm">{project.year}</span>
-                                    </div>
+                                    </div> */}
 
                                     {/* Owner Info */}
-                                    <div className="flex items-center gap-3 bg-black/50 backdrop-blur-sm rounded-2xl p-3 mb-4 border border-white/10">
-                                        <div className="w-10 h-10 rounded-full overflow-hidden border-2 border-red-400">
+                                    <div className="flex items-center gap-4 bg-black/50 backdrop-blur-sm rounded-2xl p-4 mb-4 border border-white/10 shadow-lg">
+                                        <div className="w-26 h-26 rounded-xl overflow-hidden border-4 border-red-400 shadow-md transition-transform duration-300 hover:scale-105 bg-white/10">
                                             <img 
                                                 src={project.owner.photo} 
                                                 alt={project.owner.name}
@@ -321,8 +384,10 @@ const Projects = () => {
                                             />
                                         </div>
                                         <div>
-                                            <p className="text-white font-medium text-sm">{project.owner.name}</p>
-                                            <p className="text-gray-400 text-xs">{project.owner.position}</p>
+                                            <p className="text-white font-semibold text-base">{project.owner.name}</p>
+                                            {project.owner.position && (
+                                                <p className="text-gray-400 text-xs mt-1">{project.owner.position}</p>
+                                            )}
                                         </div>
                                     </div>
 
@@ -357,7 +422,7 @@ const Projects = () => {
             {/* Right Side Actions */}
             <div className="absolute right-4 top-1/2 transform -translate-y-1/2 z-40 flex flex-col gap-4">
                 {/* Like Button */}
-                <motion.button
+                {/* <motion.button
                     onClick={() => handleLike(currentProject.id)}
                     className="flex flex-col items-center gap-1 text-white hover:text-red-400 transition-colors"
                     whileHover={{ scale: 1.1 }}
@@ -373,10 +438,10 @@ const Projects = () => {
                     <span className="text-xs">
                         {currentProject.likes + (likedProjects.has(currentProject.id) ? 1 : 0)}
                     </span>
-                </motion.button>
+                </motion.button> */}
 
                 {/* Bookmark Button */}
-                <motion.button
+                {/* <motion.button
                     onClick={() => handleBookmark(currentProject.id)}
                     className="flex flex-col items-center gap-1 text-white hover:text-yellow-400 transition-colors"
                     whileHover={{ scale: 1.1 }}
@@ -389,10 +454,10 @@ const Projects = () => {
                     }`}>
                         <Bookmark size={20} fill={bookmarkedProjects.has(currentProject.id) ? 'currentColor' : 'none'} />
                     </div>
-                </motion.button>
+                </motion.button> */}
 
                 {/* Share Button */}
-                <motion.button
+                {/* <motion.button
                     className="flex flex-col items-center gap-1 text-white hover:text-blue-400 transition-colors"
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.9 }}
@@ -400,7 +465,7 @@ const Projects = () => {
                     <div className="p-3 rounded-full bg-black/30 backdrop-blur-sm border border-white/20">
                         <Share2 size={20} />
                     </div>
-                </motion.button>
+                </motion.button> */}
             </div>
 
             {/* Navigation Controls */}
